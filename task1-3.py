@@ -13,7 +13,7 @@ justice_league.insert(0, "Wonder Woman")
 print("Justice League with Wonder Woman as the leader:")
 print(justice_league)
 print("\n")
-justice_league.remove("Green Lantern")  # I chose to move Green Lantern
+justice_league.remove("Green Lantern") 
 justice_league.insert(justice_league.index("Aquaman") + 1, "Green Lantern")
 print("Justice League with Green Lantern between Aquaman and Flash:")
 print(justice_league)
